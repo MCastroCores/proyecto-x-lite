@@ -1,0 +1,26 @@
+.containerheader {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+  @media (width < 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+}
+
+.containernav {
+  display: flex;
+  @media (width < 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.active {
+  color: yellowgreen;
+}

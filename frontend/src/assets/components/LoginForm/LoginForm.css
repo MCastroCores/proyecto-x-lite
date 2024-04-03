@@ -1,0 +1,30 @@
+.registerForm {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.inputRegisterForm {
+  border: 1px solid black;
+  width: 250px;
+  padding: 5px;
+}
+
+.buttonRegisterForm {
+  border: 1px solid black;
+  width: 150px;
+  padding: 5px;
+}
+
+.pRegisterForm {
+  text-align: center;
+  padding: 10px;
+}
